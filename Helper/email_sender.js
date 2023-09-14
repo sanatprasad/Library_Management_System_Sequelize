@@ -8,7 +8,7 @@ async function sendbookdetails(email, book) {
       service: "Gmail",
       auth: {
         user: "sanat.prasad@teksun.com",
-        pass: "zmcfxaaxobzqjfmt",
+        pass: "",
       },
     });
     if (!book.submit) {
